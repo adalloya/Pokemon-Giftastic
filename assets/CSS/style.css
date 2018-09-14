@@ -1,0 +1,97 @@
+body{
+
+    background-image:url("../Images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+}
+#form {
+    max-width: 500px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.container {
+    margin: 0px;
+}
+
+
+#topicGIFs {
+    margin: 20px;
+    border: 10px;
+    border-color: black;
+}
+
+.gifDivs {
+    margin: 10px;
+    border: 5px;
+    border-color: black;
+}
+
+
+#topicInput {
+    width: 60%;
+    margin: 10px;
+}
+
+
+.topicButtons {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+    margin: 5px;
+}
+
+.topicButtons:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.topicButtons:active {
+    color: black;
+    cursor: pointer;
+}
+
+
+#submitButton {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px grey;
+}
+
+#submitButton:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#submitButton:active {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 960px) {
+    #form {
+        max-width: 200px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #form {
+        float: none;
+    }
+}
